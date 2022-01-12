@@ -20,4 +20,4 @@ Run `ng serve --open` for a dev server that will automatically open a browser wi
 ---
 ## The Problem
 
-See comments and code in `app.component.css`. There is styling there that should work at the component level. But it doesn't work. Move it to `styles.css` and it works. However, that is the opposite of how CSS is supposed to apply in Angular.
+See comments and code in `app.component.css`. There is CSS there that should work at the component level. But it does not work. Move it to `styles.css` and now the CSS works. 
