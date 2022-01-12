@@ -1,6 +1,6 @@
 #  ArcGIS API for JavaScript Popup Styling in Angular
 
-This is a simple Angular application that demonstrates a problem with styling location marker popup text with maps created using the [ArcGIS JavaScript API](https://developers.arcgis.com/javascript/latest/) (version 4.22). The application was created as a supporting resource for a [support post on the ArcGIS API for JavaScript support forum](https://community.esri.com/t5/arcgis-api-for-javascript-questions/styling-popup-text-in-angular/td-p/1130630) pertaining to this problem.
+This is a simple Angular application that demonstrates a problem with styling location marker popup text on maps created using the [ArcGIS JavaScript API](https://developers.arcgis.com/javascript/latest/) (version 4.22). The application was created as a supporting resource for a [post on the ArcGIS API for JavaScript support forum](https://community.esri.com/t5/arcgis-api-for-javascript-questions/styling-popup-text-in-angular/td-p/1130630) about this problem.
 
 ---
 ## Base Code
@@ -20,4 +20,4 @@ Run `ng serve --open` for a dev server that will automatically open a browser wi
 ---
 ## The Problem
 
-See comments and code in `app.component.css`. There is CSS there that should work at the component level. But it does not work. Move it to `styles.css` and now the CSS works. 
+See comments and code in `app.component.css`. There is CSS there that should work at the component level to change the popup text to `darkred`. If you run the app and click the location marker (there is only one), you will see that CSS does not work. Move the same CSS to `styles.css` and now the CSS applies to the popup text. The popup text color will be `dark red`.  
