@@ -22,4 +22,4 @@ Run `ng serve --open` for a dev server that will automatically open a browser wi
 
 See comments and code in `app.component.css`. There is CSS there that should work at the component level to change the popup text to `darkred`. If you run the application and click the location marker (there is only one), you will see the popup text still has the default styling, including a dark gray text color. 
 
-Move this CSS to `styles.css and the popup text color will be `darkred`.
+Move this CSS to styles.css and the popup text color will be `darkred`.
