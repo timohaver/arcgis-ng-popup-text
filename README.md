@@ -16,3 +16,8 @@ run `npm install`
 ### Development server
 
 Run `ng serve --open` for a dev server that will automatically open a browser window. The app will automatically reload if you change any of the source files.
+
+---
+## The Problem
+
+See comments and code in `app.component.css`. There is styling there that should work. But it doesn't work. Move it to `styles.css` and it works. 
